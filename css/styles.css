@@ -1,0 +1,233 @@
+:root {
+  /*шрифты*/
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  /*цвета текста*/
+  --primary-txt: #212121;
+  --secondary-txt: #757575;
+  --light-txt: #ffffff;
+  --accent-txt: #2196f3;
+  --logo-txt: #000000;
+
+  /*цвета фона*/
+  --primary-bg: #ffffff;
+  --secondary-bg: #2f303a;
+  --main-btn-bg: #2196f3;
+  --hover-main-btn-bg: #188ce8;
+  --filter-btn-bg: #f5f4fa;
+  --hover-filter-btn-bg: #2196f3;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-txt);
+}
+
+/*Сброс подчеркиварий и маркеров*/
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Шапка сайта */
+
+.header-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-txt);
+}
+
+.logo-clr-accent {
+  color: var(--accent-txt);
+}
+
+.header-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--accent-txt);
+}
+
+.header-mail,
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-txt);
+}
+
+.header-mail:hover,
+.header-tel:hover,
+.header-mail:focus,
+.header-tel:focus {
+  color: var(--accent-txt);
+}
+
+/* Подвал сайта */
+
+.footer {
+  background-color: var(--secondary-bg);
+  width: 1600px;
+  height: 252px;
+}
+
+.footer-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--light-txt);
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.address {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--light-txt);
+}
+
+.footer-mail,
+.footer-tel {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--light-txt);
+  opacity: 0.6;
+}
+
+.footer-mail:hover,
+.footer-tel:hover,
+.footer-mail:focus,
+.footer-tel:focus {
+  color: var(--accent-txt);
+}
+
+/*Главная страница*/
+
+.order {
+  background-color: var(--secondary-bg);
+  width: 1600px;
+  height: 600px;
+}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--light-txt);
+}
+
+.main-btn {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--light-txt);
+  background-color: var(--main-btn-bg);
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.main-btn:hover {
+  background-color: var(--hover-main-btn-bg);
+}
+
+.title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.advantage-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantage-descrtp {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt);
+}
+
+.member-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.member-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt);
+}
+
+/*Главная страница*/
+
+.filter-btn {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-txt);
+  background-color: var(--filter-btn-bg);
+  border: none;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  background-color: var(--hover-filter-btn-bg);
+  color: var(--light-txt);
+  box-shadow: 0px 2px 2px lightgray;
+}
+
+.works-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.works-type {
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt);
+}
